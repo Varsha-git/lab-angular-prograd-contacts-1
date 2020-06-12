@@ -21,3 +21,42 @@ li {
   margin-top: 20px;
   width: 30%;
 }
+
+.form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form div{
+  margin: 5px;
+  font-size: 20px;
+}
+
+input{
+  border-radius: 5px;
+  padding: 5px 15px;
+  outline: none;
+}
+
+
+button{
+  margin-left: 45px;
+  margin-top: 5px;
+  font-size: large;
+  font-weight: 550;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: blueviolet;
+  color: white;
+}
+
+button:hover{
+  background-color: chocolate;
+  cursor: pointer;
+}
+
+img{
+  border-radius: 50%;
+}
